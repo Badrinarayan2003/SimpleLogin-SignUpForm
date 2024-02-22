@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* color: white; */
+}
+
+.container {
+    /* width: 100%; */
+    height: 100vh;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid rgb(128, 191, 250);
+    border-radius: 22px;
+    box-shadow: 0px 1px 5px -1px cyan;
+}
+
+.card:hover {
+    box-shadow: 0px 1px 7px 0px cyan;
+}
+
+.card h1 {
+    text-align: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* INPUT SECTION  */
+
+.wrapper {
+    margin: 10px 0;
+}
+
+.wrapper input {
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 36px;
+    border-radius: 22px;
+    background: transparent;
+    border: 2px solid rgb(50, 163, 204);
+    color: white;
+    outline: none;
+}
+
+.wrapper input:hover {
+    box-shadow: 0px 0px 7px rgb(50, 163, 204);
+}
+
+.wrap-icon {
+    position: relative;
+    top: 32px;
+    left: 13px;
+    color: white;
+}
+
+.eye-span {
+    position: relative;
+    left: 13.6rem;
+    top: -1.89rem;
+    cursor: pointer;
+}
+
+/* FORGOT AND REMEMBER SECTION  */
+
+.signup-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 2px 14px 10px 14px;
+
+}
+
+.signup-forgot a {
+    color: white;
+    text-decoration: none;
+}
+
+.signup-forgot a:hover {
+    text-decoration: underline;
+}
+
+/* BUTTON SECTION */
+
+.card button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 111px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(50, 163, 204);
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: transparent;
+    border: 2px solid rgb(50, 163, 204);
+    color: white;
+}
+
+.card button:focus {
+    box-shadow: 0px 0px 7px rgb(50, 163, 204);
+    color: white;
+}
+
+/* SIGN UP SECTION  */
+
+.card p {
+    text-align: center;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+/* SOCIAL MEDIA CONNECTION SECTION  */
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px
+}
+
+
+.social i {
+    font-size: 28px;
+    padding: 5px;
+}
+
+.google {
+    color: rgb(50, 163, 204);
+    cursor: pointer;
+}
+
+.twitter {
+    color: rgb(50, 163, 204);
+    cursor: pointer;
+}
+
+.facebook {
+    color: rgb(50, 163, 204);
+    cursor: pointer;
+}
+
+.google:hover {
+    color: white;
+}
+
+.twitter:hover {
+    color: white;
+}
+
+.facebook:hover {
+    color: white;
+}
+
+
+
+/* ======= */
+
+
+
+.card-one {
+    padding: 10px;
+    width: 330px;
+    border: 2px solid rgb(128, 191, 250);
+    border-radius: 7px;
+    box-shadow: 0px 1px 5px -1px cyan;
+}
+
+.card-one:hover {
+    box-shadow: 0px 1px 7px 0px cyan;
+}
+
+.card-one h1 {
+    text-align: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.wrapper-one {
+    margin: 10px 0;
+}
+
+.wrapper-one label {
+    padding: 9px 2px;
+    font-size: 1.2rem;
+}
+
+.wrapper-one input {
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background: transparent;
+    border: 2px solid rgb(50, 163, 204);
+    color: white;
+}
+
+.wrapper-one input:hover {
+    box-shadow: 0px 0px 7px rgb(50, 163, 204);
+}
+
+.gender-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 3rem;
+}
+
+.gender-box label {
+    margin: 0 10px;
+}
+
+.card-one button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 126px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(50, 163, 204);
+    cursor: pointer;
+}
+
+.card-one button:hover {
+    background: transparent;
+    border: 2px solid rgb(50, 163, 204);
+    color: white;
+}
+
+.card-one button:focus {
+    box-shadow: 0px 0px 7px rgb(50, 163, 204);
+    color: white;
+}
+
